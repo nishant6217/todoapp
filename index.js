@@ -3,7 +3,7 @@ const app=express();
 const port=7000;
 
 // use express router
-app.use('/',require('./routes'));
+app.use('/',require('./routes'));//app using this route
 
 app.listen(port,function(err){
     if(err){
