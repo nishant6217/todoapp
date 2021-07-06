@@ -1,15 +1,3 @@
-body{
-    margin: 0%;
-    padding: 0%;
-    background-color: gray;
-}
-.card{
-  margin-left: 20%;
-  margin-right: 20%;
-}
-.card-header{
-    text-emphasis-style: unset;
-}
-#due-date{
-    margin-top: -35px;
+.delete-contact{
+    margin-left: 78px;
 }
