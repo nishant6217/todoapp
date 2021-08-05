@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-mongoose.connect('mongodb://localhost/task_list_db');
+mongoose.connect('mongodb+srv://mnink6217:mnink6217@cluster0.h7d35.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
 
 const db =mongoose.connection;
 
