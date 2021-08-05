@@ -4,7 +4,7 @@ const db=require("./config/mongoose");
 const Task = require('./models/task');
 
 const app=express();
-const port=7000;
+const port = process.env.PORT || 8000;
 app.use(express.urlencoded());
 
 // use express router
